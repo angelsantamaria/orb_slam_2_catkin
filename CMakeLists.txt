@@ -13,7 +13,7 @@ include(ExternalProject)
 file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
 
 ExternalProject_Add(orb_slam_2_src
-  GIT_REPOSITORY git@github.com:raulmur/ORB_SLAM2.git
+  GIT_REPOSITORY git@github.com:angelsantamaria/ORB_SLAM2.git
   UPDATE_COMMAND ""
   CONFIGURE_COMMAND
       # Configuring DBoW2
