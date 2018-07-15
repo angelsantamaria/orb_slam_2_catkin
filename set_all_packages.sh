@@ -6,6 +6,12 @@ cd orb_slam_2
 
 git clone https://github.com/ethz-asl/orb_slam_2_ros.git
 
+git clone https://github.com/catkin/catkin_simple.git
+
+git clone https://github.com/ethz-asl/image_undistort.git
+
+git clone https://github.com/uzh-rpg/pangolin_catkin.git
+
 git clone https://github.com/ethz-asl/glog_catkin.git
 cd glog_catkin
 git checkout eb23bbb6889c678c91fcd3be628809f2f11654b3
