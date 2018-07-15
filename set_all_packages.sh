@@ -1,5 +1,9 @@
 echo "Downloading all packages required to run orb_slam2. Angel Santamaria-Navarro version."
 
+cd vocabulary
+tar -xf ORBvoc.txt.tar.gz
+cd ..
+
 cd ..
 mkdir orb_slam_2
 cd orb_slam_2
