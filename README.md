@@ -6,7 +6,7 @@ This package is a catkinized version of the original library [ORB_SLAM2](https:/
 
 **Keywords:** CATKIN, ORB_SLAM2, SLAM
 
-## Installation and execution
+## Installation
 
   * Clone the repository
 
@@ -20,6 +20,10 @@ This package is a catkinized version of the original library [ORB_SLAM2](https:/
 
     `roscd && cd .. && catkin_make`
   
+## Execution
+
+  `roslauch orb_slam_2_catkin run_orb_slam_2.launch`
+
 ### License
 
 The source code is released under a [GPLv3 license](https://github.com/raulmur/ORB_SLAM2/blob/master/License-gpl.txt) as is the underlying library [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2).
