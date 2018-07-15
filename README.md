@@ -6,8 +6,21 @@ This package is a catkinized version of the original library [ORB_SLAM2](https:/
 
 **Keywords:** CATKIN, ORB_SLAM2, SLAM
 
-### License
+## Installation and execution
 
+  * Clone the repository
+
+    `git clone git@github.com:angelsantamaria/orb_slam_2_catkin.git`
+
+  * Install all required packages
+
+    `chmod +x set_all_packages.sh && ./set_all_packages.sh`
+
+  * Compile (ignore warnings)
+
+    `roscd && cd .. && catkin_make`
+  
+### License
 
 The source code is released under a [GPLv3 license](https://github.com/raulmur/ORB_SLAM2/blob/master/License-gpl.txt) as is the underlying library [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2).
 
