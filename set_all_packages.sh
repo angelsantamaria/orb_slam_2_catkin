@@ -1,5 +1,7 @@
 echo "Downloading all packages required to run orb_slam2. Angel Santamaria-Navarro version."
 
+sudo apt-get install libglew-dev
+
 cd vocabulary
 tar -xf ORBvoc.txt.tar.gz
 cd ..
