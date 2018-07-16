@@ -5,10 +5,10 @@
   <arg name="debug_view" default="false" doc="Specify whether the node displays a window to show edge image" />
 
   <!-- nodelet manager --> 
-  <node pkg="nodelet" type="nodelet" name="vio_nodelet"  args="manager"/>
+  <node pkg="nodelet" type="nodelet" name="orb_slam_2_nodelet"  args="manager"/>
 
   <!-- rectify -->
-  <node pkg ="nodelet" type="nodelet" name="image_proc_rect" args="load image_proc/rectify vio_nodelet" output="screen">
+  <node pkg ="nodelet" type="nodelet" name="image_proc_rect_orb_slam_2" args="load image_proc/rectify vio_nodelet" output="screen">
     <remap from="image_mono"  to="$(arg camera)/image_raw"/>
     <remap from="camera_info" to="$(arg camera)/camera_info"/>
     <remap from="image_rect"  to="$(arg camera)/image_rect"/>
