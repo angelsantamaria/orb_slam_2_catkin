@@ -7,11 +7,18 @@
   <!-- nodelet manager --> 
   <node pkg="nodelet" type="nodelet" name="orb_slam_2_nodelet"  args="manager"/>
 
+  <!-- rotate -->
+  <!--<node pkg ="nodelet" type="nodelet" name="image_rotate_orb_slam_2" args="load image_rotate/image_rotate orb_slam_2_nodelet __name:=image_rotate" output="screen">
+    <remap from="image"       to="$(arg camera)/image_raw"/>
+    <remap from="image/rotated"  to="$(arg camera)/image_rotated"/>
+  </node>
+-->
+
   <!-- rectify -->
-  <node pkg ="nodelet" type="nodelet" name="image_proc_rect_orb_slam_2" args="load image_proc/rectify vio_nodelet" output="screen">
+  <node pkg ="nodelet" type="nodelet" name="image_proc_rect_orb_slam_2" args="load image_proc/rectify orb_slam_2_nodelet" output="screen">
     <remap from="image_mono"  to="$(arg camera)/image_raw"/>
     <remap from="camera_info" to="$(arg camera)/camera_info"/>
     <remap from="image_rect"  to="$(arg camera)/image_rect"/>
   </node>
- 
+
 </launch>
