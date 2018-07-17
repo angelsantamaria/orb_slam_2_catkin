@@ -10,6 +10,8 @@ cd ..
 mkdir orb_slam_2
 cd orb_slam_2
 
+git clone https://gitlab.iri.upc.edu/asantamaria/orb_slam_2_aeroarms.git
+
 git clone https://github.com/ethz-asl/orb_slam_2_ros.git
 
 git clone https://github.com/catkin/catkin_simple.git
