@@ -4,7 +4,7 @@
   <arg name="camera" default="/matrice/sensors"/> 
   
   <!-- Path of the file containing ORB SLAM2 configuration. -->
-  <arg name="orb_slam2_settings_file_path" default = "$(find orb_slam_2_catkin)/config/aeroarms/webcam.yaml"/>
+  <arg name="orb_slam2_settings_file_path" default = "$(find orb_slam_2_catkin)/config/aeroarms/mvbluefox3.yaml"/>
   <!-- Path of the file containing the ORB vocabulary. -->
   <arg name="vocabulary_file_path" default="$(find orb_slam_2_catkin)/vocabulary/ORBvoc.txt"/>
 
