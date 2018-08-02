@@ -5,10 +5,10 @@
 #--------------------------------------------------------------------------------------------
 
 # Camera calibration and distortion parameters (OpenCV) 
-Camera.fx: 953.288513
-Camera.fy: 956.783997
-Camera.cx: 582.082677
-Camera.cy: 437.916171
+Camera.fx: 941.862488
+Camera.fy: 948.884216
+Camera.cx: 666.513598
+Camera.cy: 412.515584
 
 Camera.k1: 0.0
 Camera.k2: 0.0
@@ -22,7 +22,7 @@ Camera.height: 960
 Camera.fps: 40.0
 
 # stereo baseline times fx
-Camera.bf: 47.90639384423901 #50.41289976523141
+Camera.bf: 45.0 #47.90639384423901 #50.41289976523141
 
 # Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
 Camera.RGB: 1
